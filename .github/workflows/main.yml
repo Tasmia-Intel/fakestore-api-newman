@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Postman Collection
         run: |
-          newman run fakestore-api.postman_collection.json \
+          newman run fakestoreapitests.postman_collection.json \
           -r cli,html \
           --reporter-html-export newman-report.html
 
